@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1500px;
+    height: 20px;
+    background: linear-gradient(to top,rgb(0,0,0,0.5)50px,rgba(0,0,0,0.5)50px), url(mirhashim-bagaliyev-YyTniBtOIu0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(0, 204, 255);
+    font-size: 25px;
+    font-family: Arial;
+    padding-right: 0px;
+    float: right;
+    padding-top: 1px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-right: 1px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(31, 2, 196);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(17, 206, 240);
+}
+
+select{
+    background: #ff7200;
+    
+}
+
+.homenav{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+   
+    align-items: start;
+}
+.homenav li{
+    margin-left: 0;
+
+    width: 100%;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blue;
+    margin-top: 13px;
+    color: rgb(240, 233, 233);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    color: rgb(18, 235, 11);
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: rgb(241, 233, 233);
+}
+
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+
+.form{
+    width: 320px;
+    height: 400px;
+    background: linear-gradient(to top, white 50px,white 50%);
+    position: absolute;
+    top: 20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0f0f0f;
+    font-size: 22px;
+    background-color: rgb(9, 192, 238);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(14, 13, 13);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(19, 18, 18);
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(7, 211, 238);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(235, 226, 226);
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: rgb(19, 18, 18);
+    color: orange;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: rgb(6, 28, 226);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+.icons ion-icon{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: orange;
+}
